@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+source: https://wheelie.dev/changelog
+product: Wheelie
+scheme: calendar-dated
+note: Public changelog renders the same last three public private-preview entries, sourced from curated task projections.
+entries:
+- date: '2026-05-31'
+  title: Capability Kit npm readback is live
+  additions: true
+  breaking: false
+  highlights: The Capability Kit GA package @continua-ai/wheelie-capability-core@0.1.0 launched on npm. Source-route marker reconciliation remains pending runtime rollout; live transport, production grants, marketplace, payout, and live-money claims stay unsupported.
+- date: '2026-05-25'
+  title: Support docs now start from typed Wheelie errors
+  additions: true
+  breaking: false
+  highlights: Documentation updated to guide private-preview users on sharing structured error information rather than raw terminal output or sensitive credentials.
+- date: '2026-05-19'
+  title: Feature discovery catalog published for CLI and web hints
+  additions: true
+  breaking: false
+  highlights: Released a JSON catalog and OpenAPI schema enabling clients to discover supported, preview, gated, and unsupported features without exposing implementation details.

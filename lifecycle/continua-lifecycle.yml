@@ -1,0 +1,14 @@
+generated: '2026-07-18'
+method: searched
+source: https://wheelie.dev/status
+product: Wheelie
+maturity: private-preview
+versioning:
+  scheme: calendar-dated
+  docs: https://wheelie.dev/changelog
+status_page: https://wheelie.dev/status
+status_page_note: Truthful support-state labels for private-preview Wheelie surfaces and the Wheelie Capability Kit GA package; blocks live transport, production-grant, payout, live-money, and broad marketplace claims until matching readbacks exist.
+support:
+  docs: https://wheelie.dev/docs/wheelie/support.md
+  channel: Discord
+deprecation: {}

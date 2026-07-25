@@ -1,0 +1,29 @@
+generated: '2026-07-18'
+method: searched
+source: https://wheelie.dev/docs/wheelie/cli.md
+name: wheelie
+description: First-party CLI for Wheelie, Continua's Development OS for agentic coding work. Organized by user task, with typed support-state receipts (native / preview / allowlist / fixture-only / unsupported) rather than broad hosted claims.
+docs: https://wheelie.dev/docs/wheelie/cli.md
+install:
+- method: shell
+  command: curl -fsSL https://get.wheelie.dev | sh
+command_families:
+- family: Auth & Setup
+  support: native
+  commands: [version, doctor, update, auth, models]
+- family: Work Management
+  support: native/preview
+  commands: [work, working-copy, start, message, logs]
+- family: Source & Changes
+  support: native/adapter-gated
+  commands: [source, change, submit, watch, validation]
+- family: Infrastructure
+  support: preview/requires-adapter
+  commands: [vm, resources, instant, app, release]
+- family: Integration
+  support: native/adapter-gated
+  commands: [integration, github, orchestrator, harness]
+- family: Operations
+  support: native/advisory
+  commands: [checkpoint, entropy, cleanup, wait]
+notes: Clean stable bootstrap may report requires_adapter for many features; agents should branch on typed support/readiness receipts before claiming hosted support.

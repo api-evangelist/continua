@@ -1,0 +1,14 @@
+generated: '2026-07-18'
+method: searched
+source: https://registry.npmjs.org/@continua-ai/wheelie-capability-core
+packages:
+- language: javascript
+  registry: npm
+  name: "@continua-ai/wheelie-capability-core"
+  version: 0.1.0
+  license: MIT
+  description: Zero-ambient-authority Wheelie capability contracts, validators, fakes, conformance runner, and replay helpers.
+  url: https://www.npmjs.com/package/@continua-ai/wheelie-capability-core
+  repository: https://github.com/continua-ai/wheelie-capability-kit
+  install: npm install @continua-ai/wheelie-capability-core
+  official: true

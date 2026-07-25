@@ -1,7 +1,13 @@
 aid: continua
 name: Continua
-description: 'Continua is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Continua AI, Inc. is a Brooklyn-based startup founded by former Google
+  Distinguished Engineer David Petrou and backed by GV, Bessemer Venture Partners,
+  and angel investors. Its product, Wheelie, is a public Development OS for agentic
+  coding work: a launch-preview platform where an agent starts from an existing checkout
+  or public repo, uses a bring-your-own harness, takes one work item, and produces
+  one reviewable diff with focused validation evidence. Wheelie ships a first-party
+  CLI, a Capability Kit npm package, an agent-readable llms.txt docs index, a public
+  support-state matrix, and a private-preview changelog and status page.'
 url: https://raw.githubusercontent.com/api-evangelist/continua/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +15,30 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://continua.ai/favicon-32x32.png
 tags:
 - Company
 - Ai
+- Agents
+- Developer Tools
+- Coding Agents
+- CLI
+- Agentic
+- Developer OS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +48,36 @@ maintainers:
 common:
 - type: Website
   url: https://www.continua.ai
+- type: DeveloperPortal
+  url: https://wheelie.dev/docs/wheelie/index.html
+- type: Documentation
+  url: https://wheelie.dev/docs/wheelie/index.html
+- type: GettingStarted
+  url: https://wheelie.dev/docs/wheelie/quickstart.md
+- type: SignUp
+  url: https://wheelie.dev/
+- type: GitHubOrganization
+  url: https://github.com/continua-ai
+- type: PrivacyPolicy
+  url: https://continua.ai/chrome-extension/privacy
+- type: LLMsTxt
+  url: llms/continua-llms.txt
+- type: Packages
+  url: packages/continua-packages.yml
+- type: SDKs
+  url: packages/continua-packages.yml
+- type: CLI
+  url: cli/continua-cli.yml
+- type: ChangeLog
+  url: changelog/continua-changelog.yml
+- type: Lifecycle
+  url: lifecycle/continua-lifecycle.yml
+- type: StatusPage
+  url: https://wheelie.dev/status
+- type: DomainSecurity
+  url: security/continua-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

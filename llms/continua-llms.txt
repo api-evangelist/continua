@@ -1,0 +1,117 @@
+# Wheelie public docs
+
+Agent docs index: /llms.txt
+
+Wheelie is Continua's public Development OS for agentic coding work. These docs describe the launch-preview one-afternoon path—existing checkout or public repo, BYO harness, one work item, one reviewable diff, focused validation evidence—and label everything else by support level. Adapter-, allowlist-, preview-, fixture-, and evidence-gated rows are not broad green launch claims.
+
+## Start here
+
+- [Wheelie docs landing page](https://wheelie.dev/docs/wheelie/index.html): human-facing docs entry with Wheelie-specific favicon and Open Graph metadata; agents do not need images for comprehension.
+- [Wheelie waitlist](https://wheelie.dev/): public private-preview / capacity-overflow access request page served at the Wheelie apex, with `/waitlist` retained as the explicit waitlist path. It uses `source_page=wheelie.waitlist`, `pilot_handle=wheelie-capacity-preview`, and typed `pilot_source=marketing_private_preview|capacity_overflow|manual_invite_interest`. Use `?reason=capacity` when routing a capacity-denied Wheelie action to the waitlist. Pre-GA `/sign-in` redirects here; `/device` remains the CLI/device pairing entry.
+- [Wheelie changelog](https://wheelie.dev/changelog): public-safe private-preview release notes sourced from curated task projections.
+- [Wheelie status and artifact readback](https://wheelie.dev/status): truthful support-state labels for private-preview Wheelie surfaces and the Wheelie Capability Kit GA package; it allows npm latest and GitHub claims when backed by receipts, labels Wheelie Source npm-marker reconciliation as pending until the runtime route readback matches, and blocks live transport, production-grant, payout, live-money, and broad marketplace claims until matching readbacks exist.
+- [Wheelie quickstart](https://wheelie.dev/docs/wheelie/quickstart.md): install Wheelie, sign in, start from an existing checkout or public repo, probe Pi/Claude/Codex harness projection support or use BYO harness, fetch fast context, create one work item, produce a reviewable diff, run validation, branch on submit/watch/checkpoint support states, and check resources.
+- [Wheelie CLI support map](https://wheelie.dev/docs/wheelie/cli.md): public command families and support levels.
+- [Wheelie command taxonomy](https://wheelie.dev/docs/wheelie/command-taxonomy.md): public-safe distinction between `app`, `instant`, `agent`, `agent-run`, and `models`, including support-state boundaries and BYOK/model failure wording.
+- [Wheelie wait guard](https://wheelie.dev/docs/wheelie/wait-guard.md): generic convergence contract for bounded wait/watch loops and app wait observers.
+- [Wheelie better-than-found encountered-issue receipts](https://wheelie.dev/docs/wheelie/better-than-found.md): provider-neutral action classes, no-busywork guardrail, evidence refs, and shared project-policy knobs for concrete issues agents encounter during scoped work.
+- [Wheelie platform capabilities](https://wheelie.dev/docs/wheelie/platform-capabilities.md): public platformd capability IA, manifest authority boundaries, capability taxonomy, command wording, generated-app guidance, compatibility/operator/debug wording, and validation plan.
+- [Wheelie device, browser, and realtime capabilities](https://wheelie.dev/docs/wheelie/device-realtime-capabilities.md): public support-state guide for physical devices, local bridges, browser sessions, cloud device providers, realtime media/control sessions, troubleshooting, and agent instructions.
+- [Wheelie edge capability apps](https://wheelie.dev/docs/wheelie/edge-capability-apps.md): app-developer guide for declaring, inspecting, requesting, invoking, revoking, and fake-provider validating installed-client capabilities while stopping on typed support states.
+- [Wheelie over SSH](https://wheelie.dev/docs/wheelie/ssh.md): SSH first-run flows, command mode, TUI mode, JSON/progress examples, unsupported-command support states, staging smoke coverage, and launch checklist.
+- [Wheelie private/non-public GitHub repo guide](https://wheelie.dev/docs/wheelie/private-repos.md): exact launch-deferred support wording, safe public-repo flow, typed stop states, and unsupported credential/provider shortcuts.
+- [Wheelie provider-adapter projections](https://wheelie.dev/docs/wheelie/provider-adapter-projections.md): provider refs as aliases/provenance/mirrors/readback projections, with Wheelie refs as authority.
+- [Wheelie OSS-safe source/review adapter example](https://wheelie.dev/docs/wheelie/source-review-adapter-example.md): fake-provider GitHub review projection example for source root, candidate snapshot, patchset/change, check metadata, submit/watch readback, and raw-write rejection.
+- [Wheelie support levels](https://wheelie.dev/docs/wheelie/support-levels.md): definitions for native, preview, allowlist, fixture-only, and unsupported surfaces, plus the agent-readable surface doctrine for API-first, browser-mediated, links-only, and support-only modes.
+- [Wheelie public support-state matrix](https://wheelie.dev/docs/wheelie/support-state-matrix.md): public row-to-doc/evidence map for providers, harnesses, lifecycle, no-leech, and zero-context smoke support states.
+- [Wheelie launch support and friendly error states](https://wheelie.dev/docs/wheelie/support.md): support owner/response path, Discord pinned guidance, safe support-bundle fields, stop conditions, and typed runbooks for capacity, BYOK, source auth, validation, PR/change, preview, budget, and stuck-task failures.
+- [Wheelie BYOK and secrets guide](https://wheelie.dev/docs/wheelie/byok-secrets.md): encrypted/write-only credential storage, mediated vs raw projection support levels, and revocation caveats.
+- [Wheelie private-preview billing](https://wheelie.dev/docs/wheelie/billing.md): manual invoice or contract billing only; no self-serve checkout, card charge, billing portal, automatic overage, or money movement in the launch path.
+- [Wheelie spend support states](https://wheelie.dev/docs/wheelie/spend-support-states.md): public-safe spend copy with money-movement guardrails.
+- [Wheelie validation quote fixture](https://wheelie.dev/docs/wheelie/paid-proof-quote.md): fixture-only agent quote contract; money movement disabled.
+- [Wheelie community contributions](https://wheelie.dev/docs/wheelie/community-contributions.md): descriptor-first package/example/demo policy with trust labels, dry-run receipts, and public-claim guardrails.
+- [Wheelie CapSearch gallery](https://wheelie.dev/capabilities): searchable public-safe capability cards and detail pages with live, preview, request-access, and unsupported labels.
+- [Wheelie CapSearch JSON](https://wheelie.dev/services/wheelie/capsearch-gallery.json): machine-readable source for the browser gallery; links only to public Wheelie docs, public service artifacts, or the waitlist.
+- [Wheelie package gallery](https://wheelie.dev/services/wheelie/package-gallery.json): first-party descriptor/fake-provider package cards with explicit non-green support states unless live package readbacks exist.
+- [Wheelie proof gallery JSON](https://wheelie.dev/services/wheelie/proof-gallery.json): product/API readback for curated proof/result packets as claim-level cards; failed, stale, and drifted outcomes remain visible and broad verification/leaderboard claims are blocked.
+- [Wheelie community contribution policy JSON](https://wheelie.dev/services/wheelie/community-contribution-policy.json): machine-readable trust labels, required review checks, and fail-closed registry mutation contract.
+- [Wheelie public command manifest](https://wheelie.dev/schemas/wheelie/public-command-manifest.json): machine-readable first-run commands and visible non-MVP support labels.
+- [Wheelie public support-state matrix JSON](https://wheelie.dev/services/wheelie/support-state-matrix.json): machine-readable support-state rows, claim coverage, evidence refs, and docs guardrails.
+- [Wheelie feature-discovery catalog](https://wheelie.dev/services/wheelie/feature-discovery.json): typed capabilities, support levels, actions, cooldown policy, and metrics for low-noise CLI/web suggestions.
+- [Wheelie public discovery manifest](https://wheelie.dev/services/wheelie/public-discovery-manifest.json): owner, canonical URL, index/noindex posture, release path, and support-state inventory for public LLM/developer discovery resources.
+- [Wheelie launch hostname matrix](https://wheelie.dev/services/wheelie/launch-hostname-matrix.json): checked canonical/redirect/support-state matrix plus public control-plane IA. `wheelie.dev` is the root waitlist plus docs/device handoff, `get.wheelie.dev` is install/release distribution, hosted browser/API backing origins are labeled in the matrix by support state, and receipts should prefer `wheelie://` logical refs for work, working copies, agent runs, VMs, validation/evidence, source/changes, and checkpoints.
+- [Wheelie public changelog artifact](https://wheelie.dev/services/wheelie/changelog.json): fixture-marked public-safe task projection for `/changelog` and the root last-three preview.
+- [Wheelie Capability Kit status JSON](https://wheelie.dev/services/wheelie/artifacts/wheelie-capability-kit/status.json): agent-readable GA package status/readback metadata with npm latest, GitHub, Wheelie Source runtime-reconcile state, safe actions, forbidden public claims, and explicit unsupported hosted/live/commerce boundaries.
+- [Wheelie capacity waitlist handoff fixture](https://wheelie.dev/services/wheelie/capacity-waitlist-handoff.json): retained typed example for `capacity_waitlist_available` with `next_action=open_waitlist` and `/waitlist?reason=capacity`.
+- [Wheelie feature-discovery API schema](https://wheelie.dev/schemas/wheelie/feature-discovery.openapi.json): provider-neutral request/response shape for personalized feature suggestions without raw command arguments, source paths, or secrets.
+- [Wheelie better-than-found receipt schema](https://wheelie.dev/schemas/wheelie/better-than-found-receipt.schema.json): typed receipt for concrete encountered issues, scoped action, evidence refs, and the no-busywork guardrail.
+- [Wheelie brand asset manifest](https://wheelie.dev/assets/wheelie/brand/manifest.json): semantic mapping for docs/static favicon, hero, avatar, and social-preview images.
+
+## First-run command sequence
+
+```bash
+brew install cosign
+curl -fsSL https://get.wheelie.dev -o wheelie-install.sh
+sh wheelie-install.sh
+export PATH="$HOME/.wheelie/bin:$PATH"
+wheelie version --json
+wheelie doctor --json
+wheelie auth login
+wheelie auth status --json
+wheelie integration connect github --repo octocat/Hello-World --json
+wheelie source status --repo octocat/Hello-World --json
+# Private/non-public repos: stop on source_provider_adapter_required / requires_adapter unless a mediated adapter or allowlist receipt is attached.
+wheelie models status --credential-mode subscription --json
+wheelie models list --credential-mode subscription --json
+wheelie auth login --provider <model-provider>
+# For app capabilities and generated-app guidance, read https://wheelie.dev/docs/wheelie/platform-capabilities.md
+wheelie capability list --scope platform --json
+wheelie capability inspect platformd://queue-lease/claim --json
+# For device/browser/realtime resources, read https://wheelie.dev/docs/wheelie/device-realtime-capabilities.md first.
+# For apps that declare installed-client capabilities, read https://wheelie.dev/docs/wheelie/edge-capability-apps.md first.
+wheelie capability list --scope resources --json
+wheelie capability inspect device://local/android/<device-ref> --json
+# For BYOK/model secrets, first read https://wheelie.dev/docs/wheelie/byok-secrets.md
+wheelie harness install pi --dry-run --json      # clean public stable may return requires_adapter
+wheelie harness status pi --json
+ssh wheelie.dev work get wheelie://work-items/<id> --json        # preview SSH command mode; may return allowlist/requires_auth/requires_adapter
+ssh wheelie.dev work watch wheelie://work-items/<id> --ndjson --max-wait-secs 120
+wheelie context pack --purpose coding --level startup --json
+wheelie work create --title "Update the README greeting" --json
+wheelie work open-working-copy wheelie://work-items/<id> --repo <org>/<repo> --launch pi --json
+# If support_state=requires_adapter and agent_session=null, this is working-copy handoff only; keep using your BYO harness.
+wheelie validation plan --json
+wheelie validation run --only local-git-working-copy-smoke --json
+wheelie change status --change <change-id> --json
+wheelie submit --change <change-id> --dry-run --json
+# After reviewing the admission preview and any policy/human gates:
+wheelie submit --change <change-id> --apply --json
+wheelie watch --change <change-id> --cursor <token> --max-wait-secs 900 --ndjson
+wheelie checkpoint create --message "ready for handoff" --work-item wheelie://work-items/<id> --context-file handoff.md --json  # if checkpoint store is attached
+wheelie resources status --json
+wheelie working-copy gc --dry-run --json
+```
+
+## Support summary
+
+- Support: use `/docs/wheelie/support.md` before asking for raw logs. Share typed `reason`, `support_state`, `next_action`, operation/evidence refs, cursors, and redacted support-bundle fields with support@continua.ai or the private-preview Discord channel named in the invite packet.
+- Native: install/update/doctor/version command shape, auth status probes, fast context packs, local work items, local read-only resources status, and typed feature-discovery hints with client-side cooldowns/dismissals. Managed VM quota, provider quota, usage-metering ledger, model catalog/credential operations, harness projection mutation, and validation are green only after the relevant project, usage-metering, model, source, harness, or validation adapter reports live support for the current account/working copy. Resource status does not enable invoices, checkout, overage, provider payment, or money movement; status payloads must keep `money_movement_enabled=false` unless a separate approved support receipt exists. BYOK/model secrets are encrypted/write-only in storage, but usage must label mediated, short-lived, or raw env/file projection mode.
+- Projection/BYO: Pi, Claude Code, and Codex are valid BYO harnesses for the one-afternoon loop. Harness projection mutation requires a richer package or project adapter before clean public stable mutates files; they are not one-click managed native harness claims.
+- Preview/requires adapter: commands that need richer model, project/source, private-repo source-provider mediation, hosted workspace, agent-run, validation, change/PR, checkpoint, or SSH session-broker adapters before live effects are available. They should return typed `support_state`, `reason`, and `next_action` fields.
+- Slack mediated read/write is `hosted_preview`: use the public Add to Slack URL for user-owned workspaces only (`app_id=A0B7RHMEFU5`), then require live workspace/channel/token-custody receipts and redacted telemetry before launch-green claims. Do not use Continua private Slack as a fallback.
+- SSH: `ssh wheelie.dev` and `ssh wheelie.dev <command>` are launch-preview paths. Use command mode for JSON/NDJSON reads such as `work get` and `work watch`; TUI mode and pairing are gated by verified webapp account, key binding, allowlist/capacity, and session-broker support. Raw shells, raw provider/admin commands, and secret-pasting are unsupported.
+- Fixture-only: validation quote discovery exists for agent planning, but it must report `money_movement_enabled=false` and use `next_action=run_no_money_demo` or `unsupported` unless a scoped budget contract is attached. Spend surfaces must use `/docs/wheelie/spend-support-states.md` and keep money movement disabled without scoped support receipts.
+- Billing: private-preview Wheelie billing is manual invoice or contract only. Plan changes, overage, cancellation, credits, and refunds go through support; there is no self-serve checkout, card charge, billing portal, automatic overage, or money movement in the launch path.
+- Waitlist: private-preview access and capacity-overflow handoffs go through `/waitlist`; submissions are unverified leads until the email verification link is confirmed.
+- Allowlist: launch-preview browser/device auth, the approved GitHub sample-repo adapter path, spendful managed workspaces, stable-artifact auth smoke, and selected integration adapters.
+- Public source sample: `wheelie source status --repo octocat/Hello-World --json` is the clean launch source-materialization smoke. Private and other non-public GitHub repos remain out of the clean public launch path until the mediated source-provider adapter/allowlist path is attached for the selected repo; if a selected repo returns `source_provider_adapter_required` / `requires_adapter`, use a public GitHub repo or attach the mediated adapter, and do not paste raw provider tokens. See https://wheelie.dev/docs/wheelie/private-repos.md for the exact user-facing flow.
+- CapSearch: `/capabilities` is a public browser gallery over support-state descriptors, not a live adapter invocation surface. Preview and request-access cards must stay visibly gated; unsupported cards are boundaries, not CTAs.
+- Not green yet: the full clean public onboarding-to-PR loop, hosted model/workspace/agent-run/validation/PR path from a clean public install, strong workspace/context durability, public named-workspace lifecycle/durability timing, broad performance/capacity/pricing/prod-parity numbers, provider-backed submit/watch for arbitrary public users, and self-serve billing. Do not cite warm-resume/cold-boot/first-setup p50/p95/p99, same-session reconnect, preview/share URL continuity, process/log continuity, cleanup SLO, host-loss, or dirty partial-run auto-recovery without public/customer-facing named-workspace cohort receipts. Broad performance/capacity/pricing/prod-parity claims stay outside the next-launch public scope; only narrow, bounded staging proof-wave facts may be cited with their stated limits.
+- Platform capabilities: generated apps should request provider-neutral platformd capabilities (`managed_relational`, Queue/Lease/Schedule, `platformd.events`, document/state/storage/search, model capabilities, spend, and `platformd.observability`) through manifest refs, operation refs, and support/readiness receipts; provider/protocol terms belong only in scoped compatibility/operator/debug sections.
+- Device/browser/realtime capabilities: local Android/iOS bridges, cloud devices, private/effectful browser sessions, and realtime media/control are not broad live claims; agents must branch on typed support-state receipts, use fake-provider validation when it answers the task, and avoid raw USB, provider credentials, local bridge URLs, and realtime credentials.
+- Edge capability apps: app manifests may declare installed-client capability refs, but request/invoke/revoke flows must keep using typed support receipts, grant/session refs, artifact refs, and post-revoke denial readback; live providers remain adapter-gated unless exact receipts exist.
+- Unsupported: raw provider admin, unmediated secret passing outside an explicitly labeled raw-projection mode, and private project admin workflows.
+
+## Agent retrieval contract
+
+Agents should fetch this file first, then the quickstart and command manifest. The quickstart contains expected outputs and next actions. Programs should key off JSON fields such as `schema_version`, `schemaVersion`, `support_state`, `reason`, `next_action`, `work_item_ref`, `working_copy_id`, `receipt`, `cursor`, and quote fields like `money_movement_enabled` and `evidence_record_schema_ref`, not human prose.
